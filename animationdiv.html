@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<style type="text/css">
+			div{
+					height: 30px;
+					width: 100px;
+					background-color: green;
+					font-weight: bold;
+					position: relative;
+					animation-name: student;
+					animation-duration: 1s;
+					animation-delay: 5s;
+					animation-iteration-count: 5;
+
+			}
+		@keyframes student
+		{
+			from{
+				left: 0px;
+			}
+			to{
+				left: 500px;
+			}
+		}
+		.class{
+				transform: rotate(0deg);
+		}
+		#d1{
+			animation-timing-function:linear;
+		}
+		#d2{
+			animation-timing-function: ease-in;
+		}
+		#d3{
+			animatiion-timing-function: ease-out;
+		}
+		#d4{
+			animation-timing-function: ease;
+		}
+		#d5{
+			animation-timing-function: ease-in-out;
+		}
+		</style> 
+	</head>
+	<body>
+		<div id="d1">somun</div>
+		<div class="d2">soumya</div>
+		<div id="d3">sahil</div>
+		<div id="d4">subham</div>
+		<div  id="d5">ram</div>
+		</body>
+</html>
